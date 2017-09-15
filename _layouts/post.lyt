@@ -18,6 +18,7 @@
             {% include nav.ext %}
             {% include jsLoads.ext %}
             {{content}}    
+            {% include footer.ext %}
         </div>
     </body>
 </html>

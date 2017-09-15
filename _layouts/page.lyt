@@ -17,7 +17,8 @@
         <div class="container">
             {% include nav.ext %}
             {% include jsLoads.ext %}
-            {{content}}    
+            {{content}}  
+            {% include footer.ext %}  
         </div>
     </body>
 </html>
