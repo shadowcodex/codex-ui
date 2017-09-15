@@ -1,6 +1,6 @@
 .highlight table td { padding: 5px; }
 .highlight table pre { margin: 0; }
-.highlight pre {padding: 15px;}
+.highlight pre {padding: 15px; border-style: solid; border-width: 1px; border-color: #B9B9B9}
 .highlight .cm {
   color: #999988;
   font-style: italic;
