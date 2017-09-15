@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        {% include head.ext %}
+    </head>
+    <body>
+        <div class="container">
+            {% include nav.ext %}
+            {% include jsLoads.ext %}
+            {{content}}    
+        </div>
+    </body>
+</html>
