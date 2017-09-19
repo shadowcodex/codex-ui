@@ -144,7 +144,7 @@ layout: component
 {% highlight html %}
 <div class="row">
     <div class="col">
-        <div class="card bg-warning">
+        <div class="card bg-danger text-white">
             <div class="card-body">
                 <div class="row">
                     <div class="col-8">
@@ -152,10 +152,13 @@ layout: component
                         <p>And some background information</p>
                     </div>
                     <div class="col-4">
-                        <br>
-                        <button class="btn btn-dark btn-block">Buy Now!
-                            &nbsp;&nbsp;&nbsp;<i class="fa fa-chevron-right" aria-hidden="true"></i>
-                        </button>
+                        <form action="#">
+                            <input class="form-control" type="text" placeholder="your@email.com">
+                            <button class="btn btn-dark btn-block">Subscribe!
+                                &nbsp;&nbsp;&nbsp;<i class="fa fa-chevron-right" aria-hidden="true"></i>
+                            </button>
+                        </form>
+                        
                     </div>
                 </div>
             </div>
