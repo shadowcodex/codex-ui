@@ -88,5 +88,10 @@
         "title": "Blurb Circle",
         "permalink": "components/blurb-circle",
         "image": "imgs/blurb-circle.png"
+    },
+    {
+        "title": "Blurb Product",
+        "permalink": "components/blurb-product",
+        "image": "imgs/blurb-product.png"
     }
 ]
