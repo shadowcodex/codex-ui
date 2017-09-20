@@ -78,5 +78,10 @@
         "title": "Blurb",
         "permalink": "components/blurb",
         "image": "imgs/blurb.png"
+    },
+    {
+        "title": "Blurb List",
+        "permalink": "components/blurb-list",
+        "image": "imgs/blurb-list.png"
     }
 ]
