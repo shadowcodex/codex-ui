@@ -74,4 +74,9 @@
         "permalink": "components/team-member-multi-profile-card/",
         "image": "imgs/team-card.png"
     },
+    {
+        "title": "Blurb",
+        "permalink": "components/blurb",
+        "image": "imgs/blurb.png"
+    }
 ]
