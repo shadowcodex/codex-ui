@@ -60,8 +60,10 @@ permalink: '/components/'
 </script>
 {% endraw %}
 <script>    
-    var client = algoliasearch("JALYH7QHOY", "1a318d659306a2e6a21d83ffd6fff9e2");
+    var client = algoliasearch("JALYH7QHOY", "1a318d659306a2e6a21d83ffd6fff9e2");   
     var index = client.initIndex('bootstrap_components');   
+    
+    
 
     document.getElementById("search-input").addEventListener("keyup", function(event){            
         index.search(document.getElementById("search-input").value, function(err, content){
