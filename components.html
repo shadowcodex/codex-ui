@@ -5,7 +5,8 @@ permalink: '/components/'
 ---
 <h1>Components</h1>
 {% assign componentCount = site.data.components.size %}
-<p>The full library of the {{componentCount}} components.</p>
+<p>The full library of the completed components.<br><strong>Total Components so far:</strong> <span class="text-danger">{{componentCount}}</span></p>
+<p></p>
 <br>
 {% assign rows = site.data.components.size | divided_by: 6.0 | ceil %}
 {% for i in (1..rows) %}
