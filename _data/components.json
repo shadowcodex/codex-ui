@@ -1,0 +1,77 @@
+[
+    {
+        "title": "Call To Action",
+        "permalink": "components/call-to-action/",
+        "image": "imgs/subscribe.png"
+    },
+    {
+        "title": "Contact Form",
+        "permalink": "components/contact-form/",
+        "image": "imgs/contact-form.png"
+    },
+    {
+        "title": "Contact Form 2",
+        "permalink": "components/contact-form-2/",
+        "image": "imgs/contact-form-2.png"
+    },
+    {
+        "title": "Dashboard Tiles",
+        "permalink": "components/dashboard-tiles/",
+        "image": "imgs/dashboard-tiles.png"
+    },
+    {
+        "title": "Login Form",
+        "permalink": "components/login-form/",
+        "image": "imgs/login-1.png"
+    },
+    {
+        "title": "Login Form 2",
+        "permalink": "components/login-form-2/",
+        "image": "imgs/login-2.png"
+    },
+    {
+        "title": "Login Form 3",
+        "permalink": "components/login-form-3/",
+        "image": "imgs/login.png"
+    },
+    {
+        "title": "Panel",
+        "permalink": "components/panel/",
+        "image": "imgs/panel.png"
+    },
+    {
+        "title": "Pricing Table",
+        "permalink": "components/pricing-table/",
+        "image": "imgs/pricing-table-1.png"
+    },
+    {
+        "title": "Pricing Table 2",
+        "permalink": "components/pricing-table-2/",
+        "image": "imgs/pricing-table.png"
+    },
+    {
+        "title": "Team Card",
+        "permalink": "components/team-member-profile-card/",
+        "image": "imgs/team-card-1.png"
+    },
+    {
+        "title": "Team Card 2",
+        "permalink": "components/team-member-profile-card-2/",
+        "image": "imgs/team-card-2.png"
+    },
+    {
+        "title": "Team Card 3",
+        "permalink": "components/team-member-profile-card-3/",
+        "image": "imgs/team-card-3.png"
+    },
+    {
+        "title": "Team Card 4",
+        "permalink": "components/team-member-profile-card-4/",
+        "image": "imgs/team-card-4.png"
+    },
+    {
+        "title": "Team Cards",
+        "permalink": "components/team-member-multi-profile-card/",
+        "image": "imgs/team-card.png"
+    },
+]

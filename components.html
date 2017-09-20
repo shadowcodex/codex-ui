@@ -4,27 +4,27 @@ title: 'Components'
 permalink: '/components/'
 ---
 <h1>Components</h1>
-<p>A list of components both done, and a short todo list.</p>
+{% assign componentCount = site.data.components.size %}
+<p>The full library of the {{componentCount}} components.</p>
 <br>
-<p>Done:</p>
-<ul>    
-    <li><a href="call-to-action/">Call To Action</a> - A simple call to action banner.</li>
-    <li><a href="contact-form/">Contact Form</a> - A simple contact form.</li>
-    <li><a href="contact-form-alternative/">Contact Form Alternative</a> - A simple contact form (Alternative Design)</li>
-    <li><a href="dashboard-tiles/">Dashboard Tiles</a> - Quickly display important data in tiles.</li>
-    <li><a href="login-form/">Login Form</a> - Just a simple login form.</li>
-    <li><a href="login-form-alternative/">Login Form Alternative</a> - Just a simple login form. (Alternative Design)</li>
-    <li><a href="login-form-alternative-2/">Login Form Alternative 2</a> - Just a simple login form. (Alternative Design 2)(Bootstrap 3 Panel)</li>
-    <li><a href="panel/">Panel</a> - A representation of the old bootstrap 3 panels.</li>
-    <li><a href="pricing-table/">Pricing Table</a> - A pricing table using bootstrap 4 cards.</li>    
-    <li><a href="pricing-table-alternative/">Pricing Table Alternative</a> - A pricing table using bootstrap 4 cards. (Alternative Design)</li> 
-    <li><a href="team-member-profile-card/">Team Member Profile Card</a>  - Display a synopsis of information for team members.</li>
-    <li><a href="team-member-profile-card-alternative/">Team Member Profile Card Alternative</a>  - Display a synopsis of information for team members. (Alternative Design)</li>
-    <li><a href="team-member-profile-card-alternative-2/">Team Member Profile Card Alternative 2</a>  - Display a synopsis of information for team members. (Alternative Design 2)</li>
-    <li><a href="team-member-profile-card-alternative-3/">Team Member Profile Card Alternative 3</a>  - Display a synopsis of information for team members. (Alternative Design 3)</li>
-    <li><a href="team-member-multi-profile-card/">Team Member Profile Multi-Card Layout</a> - Display your team cards in a multi-card presentation.</li>
-</ul>
+{% assign rows = site.data.components.size | divided_by: 6.0 | ceil %}
+{% for i in (1..rows) %}
+    {% assign offset = forloop.index0 | times: 6 %}
+    <div class="row">
+    {% for comp in site.data.components limit:6 offset:offset %}
+        <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-2">
+            <a href="{{site.baseurl}}/{{comp.permalink}}" class="card border-dark mb-3" style="text-decoration:none;">
+                <img src="{{site.baseurl}}/{{comp.image}}" alt="{{comp.title}}" class="card-img-top">
+                <div class="card-footer bg-dark text-white">
+                    {{comp.title}}
+                </div>
+            </a>            
+        </div>
+    {% endfor %}
+    </div>
+{% endfor %}
+<br><br>
 <p>Todo:</p>
-<p>This list has moved. To follow items on the todo list please look at the project list on github...</p>
+<p>To follow items on the todo list please look at the project list on github...</p>
 <a href="https://github.com/shadowcodex/codex-ui/projects/" class="btn btn-lg btn-primary">View Github Projects</a>
 <br><br>
