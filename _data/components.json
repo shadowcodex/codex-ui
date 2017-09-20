@@ -103,5 +103,15 @@
         "title": "Blurb Product 3",
         "permalink": "components/blurb-product-3",
         "image": "imgs/blurb-product-3.png"
+    },
+    {
+        "title": "Blurb 2",
+        "permalink": "components/blurb-2",
+        "image": "imgs/blurb-2.png"
+    },
+    {
+        "title": "Blurb Circle 2",
+        "permalink": "components/blurb-circle-2",
+        "image": "imgs/blurb-circle-2.png"
     }
 ]
