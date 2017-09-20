@@ -93,5 +93,15 @@
         "title": "Blurb Product",
         "permalink": "components/blurb-product",
         "image": "imgs/blurb-product.png"
+    },
+    {
+        "title": "Blurb Product 2",
+        "permalink": "components/blurb-product-2",
+        "image": "imgs/blurb-product-2.png"
+    },
+    {
+        "title": "Blurb Product 3",
+        "permalink": "components/blurb-product-3",
+        "image": "imgs/blurb-product-3.png"
     }
 ]
