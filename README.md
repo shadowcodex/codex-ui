@@ -1,5 +1,5 @@
-# codex-ui
-A collection of ui components for bootstrap 4
+# Codex UI
+A collection of UI components for bootstrap 4
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)]()
 [![# of Components](https://img.shields.io/badge/total%20components-15-green.svg)]()
@@ -40,6 +40,6 @@ I am open to contributions to the components, you could contribute in many ways:
 
 Any new components or pull requests will be reviewed to make sure they fit the restrictions before pulling them into the repo.
 
-#### Built with :heart: by [shadowcodex](https://shadowcodex.github.io) 
+#### Made with :heart: by [shadowcodex](https://shadowcodex.github.io) 
 
 [![Twitter Follow](https://img.shields.io/twitter/follow/iammrduncan.svg?style=social&label=Follow)]() 
