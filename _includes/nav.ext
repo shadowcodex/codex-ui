@@ -16,7 +16,7 @@
         <a class="nav-link" href="{{site.baseurl}}/request/">Request</a>
       </li>
     </ul>
-      <a class="btn btn-outline-dark my-2 my-sm-0" href="https://github.com/shadowcodex/codex-ui">View on Github</a>    
+      <a class="btn btn-outline-warning my-2 my-sm-0" href="https://github.com/shadowcodex/codex-ui">View on Github</a>    
   </div>
 </nav>
 <br>
