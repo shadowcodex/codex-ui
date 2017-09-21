@@ -1,4 +1,0 @@
-<title>{{ page.title }} - {{ site.title }}</title>
-<link rel="stylesheet" href="{{site.baseurl}}/css/bootstrap.min.css" type="text/css" />
-<link rel="stylesheet" href="{{site.baseurl}}/css/syntax.css" type="text/css" />
-
