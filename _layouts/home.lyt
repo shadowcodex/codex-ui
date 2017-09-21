@@ -13,8 +13,8 @@
 
         gtag('config', 'UA-93931053-3');
         </script>
-        <div class="container">
-            {% include nav.ext %}
+        {% include nav.ext %}
+        <div class="container">            
             {% include jsLoads.ext %}
             {{content}}   
             {% include footer.ext %}
