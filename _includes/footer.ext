@@ -1,5 +1,10 @@
 <footer>
-    <p>Made with <span class="text-danger">&#x2764;</span> by <a href="https://shadowcodex.github.io/">shadowcodex</a></p>
+    <p>
+      Made with <span class="text-danger">&#x2764;</span> by 
+      <a href="https://shadowcodex.github.io/">shadowcodex</a>
+      and
+      <a href="https://labf15h.com/">Lab F15h</a>
+    </p>
 </footer>
 <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-59bfcf084d642670"></script> 
 <script>
