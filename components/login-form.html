@@ -1,9 +1,3 @@
----
-title: 'Login Form'
-description: 'Just a simple login form.'
-permalink: '/components/login-form/'
-layout: component
----
 <div class="row justify-content-md-center">
     <div class="col-md-4">
         <div class="card">
@@ -34,37 +28,3 @@ layout: component
         </div>
     </div>
 </div>
-<br>
-<p>Code:</p>
-{% highlight html %}
-<div class="row justify-content-md-center">
-    <div class="col-md-4">
-        <div class="card">
-            <div class="card-header">
-                <h5 class="card-title">Login via Site</h5>
-            </div>
-            <div class="card-body">
-                <form accept-charset="UTF-8" role="form" action="#">
-                    <fieldset>
-                        <div class="form-group">
-                            <input type="text" placeholder="yourmail@example.com" name="email" class="form-control">
-                        </div>
-                        <div class="form-group">
-                            <input type="password" placeholder="Password" name="password" class="form-control" value="">
-                        </div>
-                        <div class="checkbox">
-                            <label>
-                                <input name="remember" type="checkbox" value="Remember Me"> Remember Me
-                            </label>
-                        </div>
-                        <input class="btn btn-lg btn-success btn-block" type="submit" value="Login">
-                    </fieldset>
-                </form>
-                <hr/>
-                <h4 class="text-center">OR</h4>                
-                <a href="#" class="btn btn-lg btn-primary btn-block">Sign Up</a>
-            </div>
-        </div>
-    </div>
-</div>
-{% endhighlight %}

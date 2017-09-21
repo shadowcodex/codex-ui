@@ -1,17 +1,4 @@
----
-title: 'Contact Form 2'
-description: 'A simple contact form. (Alternative design)'
-permalink: '/components/contact-form-2/'
-layout: component
----
-<p>Font Awesome Required for icons in form</p>
-<p>Code:</p>
-{% highlight html %}
-<link rel="stylesheet" href="../../css/font-awesome.min.css">
-{% endhighlight %}
-<hr>
-<br>
-<link rel="stylesheet" href="../../css/font-awesome.min.css">
+<!-- <link rel="stylesheet" href="../../css/font-awesome.min.css"> -->
 <div class="row justify-content-md-center">
     <div class="col-md-6">
         <div class="card border-primary">
@@ -43,38 +30,3 @@ layout: component
         </div>
     </div>
 </div>
-<br>
-<p>Code:</p>
-{% highlight html %}
-<div class="row justify-content-md-center">
-    <div class="col-md-6">
-        <div class="card border-primary">
-            <div class="card-header bg-primary text-white"><i class="fa fa-paper-plane" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;Contact Us</div>
-            <div class="card-body">
-                <form action="#">
-                    <div class="form-group">
-                        <label for="exampleInputEmail">Your Email:</label>
-                        <div class="input-group">
-                            <span class="input-group-addon"><i class="fa fa-envelope" aria-hidden="true"></i></span>
-                            <input type="email" class="form-control" placeholder="your@email.com">                        
-                        </div>
-                        
-                    </div>
-                    <div class="form-group">
-                        <label for="exampleInputName">Your Name:</label>
-                        <div class="input-group">
-                            <span class="input-group-addon"><i class="fa fa-user" aria-hidden="true"></i></span>
-                            <input type="text" class="form-control" placeholder="John Doe">
-                        </div>                        
-                    </div>
-                    <div class="form-group">
-                        <label for="exampleInputMessage">Your Message:</label>
-                        <textarea name="message" class="form-control" rows="5"></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Send Message</button>
-                </form>
-            </div>
-        </div>
-    </div>
-</div>
-{% endhighlight %}
