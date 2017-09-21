@@ -47,18 +47,6 @@ permalink: '/components/'
 <a href="https://github.com/shadowcodex/codex-ui/projects/" class="btn btn-lg btn-primary">View Github Projects</a>
 <br><br>
 <script src="https://cdn.jsdelivr.net/algoliasearch/3/algoliasearchLite.min.js"></script>
-{% raw %}
-<script type="text/html" id="hit-template">
-    <div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-2">
-        <a href="/codex-ui/{{permalink}}" class="card border-dark mb-3" style="text-decoration:none;">
-            <img src="/codex-ui/{{image}}" alt="{{title}}" class="card-img-top">
-            <div class="card-footer bg-dark text-white">
-                {{title}}
-            </div>
-        </a>            
-    </div>    
-</script>
-{% endraw %}
 <script>    
     var client = algoliasearch("JALYH7QHOY", "1a318d659306a2e6a21d83ffd6fff9e2");   
     var index = client.initIndex('bootstrap_components');   
@@ -80,8 +68,8 @@ permalink: '/components/'
                 }
                 var data = content.hits[i];
                 text += '<div class="col-6 col-sm-4 col-md-3 col-lg-3 col-xl-2">';
-                text += '<a href="/codex-ui/'+ data.permalink +'" class="card border-dark mb-3" style="text-decoration:none;">';
-                text += '<img src="/codex-ui/'+ data.image +'" alt="'+data.title+'" class="card-img-top">';
+                text += '<a href="/'+ data.permalink +'" class="card border-dark mb-3" style="text-decoration:none;">';
+                text += '<img src="/'+ data.image +'" alt="'+data.title+'" class="card-img-top">';
                 text += '<div class="card-footer bg-dark text-white">' + data.title + '</div></a></div>';                
                 
                 ultiText += text;
