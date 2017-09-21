@@ -8,13 +8,15 @@ A collection of UI components for bootstrap 4
 
 ## View Components
 
-To view a full list of components that are both done and on the road map simply go to [https://shadowcodex.github.io/codex-ui/components/](https://shadowcodex.github.io/codex-ui/components/)
+To view a full list of components that are both done and on the road map simply go to [https://codexui.com/](https://codexui.com/components/)
 
 ## How To Use
 
-Just copy and paste. Each component will have a `code:` section below it. Just copy that code and paste it into your site. As long as you have bootstrap 4 running on the site, they components should just "work". 
+**From The Site:** Just copy and paste. Each component will have a `code:` section below it. Just copy that code and paste it into your site. As long as you have bootstrap 4 running on the site, they components should just "work". 
 
 If they don't and you can't figure out why open an issue and I'll gladly help as much as I can!
+
+**From Github:** Download the repo as a zip and open up any of the components. They should be copy and paste ready to go.
 
 ## Restrictions
 
