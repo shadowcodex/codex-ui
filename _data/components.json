@@ -133,5 +133,15 @@
         "title": "Reset Password Form 3",
         "permalink": "components/reset-password-form-3",
         "image": "imgs/reset-password-form-3.png"
+    },
+    {
+        "title": "Newsletter Tile",
+        "permalink": "components/newsletter-tile",
+        "image": "imgs/newsletter-tile.png"
+    },
+    {
+        "title": "Newsletter Tile 2",
+        "permalink": "components/newsletter-tile-2",
+        "image": "imgs/newsletter-tile-2.png"
     }
 ]
