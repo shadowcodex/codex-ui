@@ -118,5 +118,20 @@
         "title": "Blurb List 2",
         "permalink": "components/blurb-list-2",
         "image": "imgs/blurb-list-2.png"
+    },
+    {
+        "title": "Reset Password Form",
+        "permalink": "components/reset-password-form",
+        "image": "imgs/reset-password-form.png"
+    },
+    {
+        "title": "Reset Password Form 2",
+        "permalink": "components/reset-password-form-2",
+        "image": "imgs/reset-password-form-2.png"
+    },
+    {
+        "title": "Reset Password Form 3",
+        "permalink": "components/reset-password-form-3",
+        "image": "imgs/reset-password-form-3.png"
     }
 ]
