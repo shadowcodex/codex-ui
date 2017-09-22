@@ -43,6 +43,6 @@ I am open to contributions to the components, you could contribute in many ways:
 
 Any new components or pull requests will be reviewed to make sure they fit the restrictions before pulling them into the repo.
 
-#### Made with :heart: by [shadowcodex](https://shadowcodex.github.io) 
+#### Made with :heart: by [shadowcodex](https://shadowcodex.github.io) && [Lab F15h](https://labf15h.com/)
 
 [![Twitter Follow](https://img.shields.io/twitter/follow/iammrduncan.svg?style=social&label=Follow)]() 
