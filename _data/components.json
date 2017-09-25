@@ -143,5 +143,15 @@
         "title": "Newsletter Tile 2",
         "permalink": "components/newsletter-tile-2",
         "image": "imgs/newsletter-tile-2.png"
+    },
+    {
+        "title": "Newsletter Tile 3",
+        "permalink": "components/newsletter-tile-3",
+        "image": "imgs/newsletter-tile-3.png"
+    },
+    {
+        "title": "Newsletter Tile 4",
+        "permalink": "components/newsletter-tile-4",
+        "image": "imgs/newsletter-tile-4.png"
     }
 ]
