@@ -153,5 +153,10 @@
         "title": "Newsletter Tile 4",
         "permalink": "components/newsletter-tile-4",
         "image": "imgs/newsletter-tile-4.png"
+    },
+    {
+        "title": "Large Circle Blob",
+        "permalink": "components/large-circle-blob",
+        "image": "imgs/large-circle-blob.png"
     }
 ]
