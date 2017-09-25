@@ -45,4 +45,4 @@ Any new components or pull requests will be reviewed to make sure they fit the r
 
 #### Made with :heart: by [shadowcodex](https://shadowcodex.github.io) && [Lab F15h](https://labf15h.com/)
 
-[![Twitter Follow](https://img.shields.io/twitter/follow/iammrduncan.svg?style=social&label=Follow)]() 
+[![Twitter Follow](https://img.shields.io/twitter/follow/iammrduncan.svg?style=social&label=Follow)](https://twitter.com/iammrduncan) 
