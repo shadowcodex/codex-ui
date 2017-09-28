@@ -158,5 +158,10 @@
         "title": "Large Circle Blob",
         "permalink": "components/large-circle-blob",
         "image": "imgs/large-circle-blob.png"
+    },
+    {
+        "title": "Sections",
+        "permalink": "components/sections",
+        "image": "imgs/sections.png"
     }
 ]
