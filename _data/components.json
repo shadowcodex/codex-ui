@@ -163,5 +163,20 @@
         "title": "Sections",
         "permalink": "components/sections",
         "image": "imgs/sections.png"
+    },
+    {
+        "title": "Sign Up",
+        "permalink": "components/sign-up",
+        "image": "imgs/sign-up.png"
+    },
+    {
+        "title": "Sign Up 2",
+        "permalink": "components/sign-up-2",
+        "image": "imgs/sign-up-2.png"
+    },
+    {
+        "title": "Sign Up 3",
+        "permalink": "components/sign-up-3",
+        "image": "imgs/sign-up-3.png"
     }
 ]
