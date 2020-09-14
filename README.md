@@ -3,12 +3,9 @@ A collection of UI components for bootstrap 4
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)]()
 [![# of Components](https://img.shields.io/badge/total%20components-36-green.svg)]()
+[![Discord](https://img.shields.io/discord/630805507782868992.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/GghbTQA)
 
 ![Item Previews](imgs/item-previews.png)
-
-## Wanna discuss? Join Discord.
-
-Join discord over at: https://discord.gg/GghbTQA
 
 ## View Components
 
