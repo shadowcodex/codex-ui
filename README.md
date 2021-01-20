@@ -1,7 +1,7 @@
 # Codex UI
 A collection of UI components for bootstrap 4
 
-# Work is being done to upgrade to Boostrap 5 and begin adding new components as well as a new website.
+# Work is being done to upgrade to Boostrap 5 and begin adding new components as well as a new website. https://github.com/shadowcodex/codex-ui/projects/3
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)]()
 [![# of Components](https://img.shields.io/badge/total%20components-36-green.svg)]()
