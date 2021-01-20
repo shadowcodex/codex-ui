@@ -1,6 +1,8 @@
 # Codex UI
 A collection of UI components for bootstrap 4
 
+# Work is being done to upgrade to Boostrap 5 and begin adding new components as well as a new website.
+
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)]()
 [![# of Components](https://img.shields.io/badge/total%20components-36-green.svg)]()
 [![Discord](https://img.shields.io/discord/630805507782868992.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/GghbTQA)
